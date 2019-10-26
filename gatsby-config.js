@@ -10,6 +10,12 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: `https://rpe.netlify.com/`,
+      },
+    },
     "gatsby-plugin-chakra-ui",
     `gatsby-plugin-react-helmet`,
     {
